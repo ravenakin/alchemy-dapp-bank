@@ -35,7 +35,6 @@ export default function Home() {
             <button type="submit">Send</button>
           </form>
         </section>
-        <InstructionsComponent/>
       </main>
       <footer className={styles.footer}>
         <p>© 2023 Our Web3 World. All rights reserved.</p>
