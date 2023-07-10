@@ -9,7 +9,6 @@ export default function Home() {
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -25,15 +24,6 @@ export default function Home() {
         <section id="services" className={styles.services}>
           <h2>Services</h2>
           <p>We offer various services related to Web3 development.</p>
-        </section>
-        <section id="contact" className={styles.contact}>
-          <h2>Contact Us</h2>
-          <form>
-            <input type="text" placeholder="Your name" required />
-            <input type="email" placeholder="Your email" required />
-            <textarea placeholder="Your message"></textarea>
-            <button type="submit">Send</button>
-          </form>
         </section>
       </main>
       <footer className={styles.footer}>
