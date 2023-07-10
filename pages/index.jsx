@@ -13,15 +13,15 @@ export default function Home() {
         </nav>
       </header>
       <main className={styles.main}>
-        <section id="home" className={styles.home}>
+        <section id="home" className={`${styles.home} ${styles.section}`}>
           <h1>Welcome to our Web3 World</h1>
           <p>Experience the future of the web with blockchain technology.</p>
         </section>
-        <section id="about" className={styles.about}>
+        <section id="about" className={`${styles.about} ${styles.section}`}>
           <h2>About Us</h2>
           <p>We are pioneers in integrating blockchain with web development.</p>
         </section>
-        <section id="services" className={styles.services}>
+        <section id="services" className={`${styles.services} ${styles.section}`}>
           <h2>Services</h2>
           <p>We offer various services related to Web3 development.</p>
         </section>
